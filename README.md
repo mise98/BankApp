@@ -4,11 +4,11 @@ C programming project that simulates simplified bank with using concepts like so
 # Info
 Application simulates bank that contains N service desks. Each service desk run it's own thread.
 
-Each service desk has own queue from whch it waits commands. When the user issues a command, it goes to the queue of service desk(thread) that has shortest queue.
+Each service desk has own queue from which it waits commands. When the user issues a command, it goes to the queue of service desk(thread) that has shortest queue.
 
 Program also has master thread that can skip all queues to get the current balance of the bank.
 
-Application works with two programs witch are connected with socket. server.c is the program that contains the bank. It waits messages from client.c where user gives commands on command promt.
+Application works with two programs which are connected with socket. server.c is the program that contains the bank. It waits messages from client.c where user gives commands on command promt.
 
 The commands could be for example:
 'l 2' to get balance of the client with client number 2.

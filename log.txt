@@ -1,0 +1,30 @@
+-------------------
+2021-1-3 13:54:2
+Creating barrier
+Creating clients
+Creating socket
+Creating connection
+-------------------
+2021-1-3 13:54:20
+Creating barrier
+Creating clients
+Creating socket
+Creating connection
+Server is now on
+Creating threads
+Asking commands
+Master thread sends command to the shortest queue
+Asking commands
+Thread serves customer
+Master thread sends command to the shortest queue
+Asking commands
+Thread serves customer
+Waiting all threads to report to the master
+All threads reported
+giving balance of the bank
+Asking commands
+Waiting all threads to end
+Destroying barrier
+Free list of clients
+Free list of queues
+Program ends
